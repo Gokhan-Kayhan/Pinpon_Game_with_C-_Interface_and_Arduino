@@ -1,0 +1,125 @@
+int pot1,pot2;    
+int counter1 = 0;    
+int counter2 = 0;   
+char gelen;
+
+void setup() {
+    pinMode(A0,INPUT);
+    pinMode(A5,INPUT);
+
+    pinMode(5,OUTPUT);
+    pinMode(6,OUTPUT);
+    pinMode(7,OUTPUT);
+    pinMode(8,OUTPUT);
+    pinMode(9,OUTPUT);
+    pinMode(10,OUTPUT);
+
+    Serial.begin(9600);
+}
+
+
+  
+
+void loop()
+{
+    if(Serial.available()>0)
+    {
+        gelen=Serial.read();
+
+        if(gelen=='b')
+        {
+            int pot1=analogRead(A0);
+            int pot2=analogRead(A5);
+
+            pot1=map(pot1,0,1023,0,305);
+            pot2=map(pot2,0,1023,0,305);
+
+            Serial.print(pot1);
+            Serial.print('+');
+            Serial.print(pot2);
+
+            Serial.println(' ');  
+
+            delay(100);
+        }
+
+
+        if(gelen=='1')
+        {
+            counter1++;
+
+            if (counter1 == 1)
+            { digitalWrite (5,HIGH);  }
+
+
+            if (counter1 == 2)
+            { digitalWrite (6,HIGH);  }
+
+
+            if (counter1 == 3)
+            { 
+                counter1 = 0;
+                counter2 = 0;
+
+                for (int i = 0 ; i<10 ; i++ )
+                {
+                    digitalWrite (5,HIGH);
+                    digitalWrite (6,HIGH);
+                    digitalWrite (7,HIGH);
+                    delay(200);
+                    digitalWrite (5,LOW);
+                    digitalWrite (6,LOW);
+                    digitalWrite (7,LOW);
+                    delay(200);
+
+                    digitalWrite (8,LOW);
+                    digitalWrite (9,LOW);
+                    digitalWrite (10,LOW);
+
+                }
+            }
+
+        }   // if gelen = 1
+
+
+
+        if(gelen=='2')
+        {
+  
+            counter2++;
+
+            if (counter2 == 1)
+            { digitalWrite (8,HIGH);  }
+
+
+            if (counter2 == 2)
+            { digitalWrite (9,HIGH);  }
+
+
+            if (counter2 == 3)
+            { 
+                counter2 = 0;
+                counter1 = 0;
+                for (int k = 0 ; k<10 ; k++ )
+                {
+                    digitalWrite (8,HIGH);
+                    digitalWrite (9,HIGH);
+                    digitalWrite (10,HIGH);
+                    delay(200);
+                    digitalWrite (8,LOW);
+                    digitalWrite (9,LOW);
+                    digitalWrite (10,LOW);
+                    delay(200);
+
+                    digitalWrite (5,LOW);
+                    digitalWrite (6,LOW);
+                    digitalWrite (7,LOW);
+
+                }
+            }
+
+        }  // if gelen 2 
+
+    } // available
+    
+}
