@@ -1,0 +1,13 @@
+C:\Users\casper\Desktop\C# Uygulama Sınavı\Arduino\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\bin\Debug\PinPon_oyun_deneme_1.exe.config
+C:\Users\casper\Desktop\C# Uygulama Sınavı\Arduino\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\bin\Debug\PinPon_oyun_deneme_1.exe
+C:\Users\casper\Desktop\C# Uygulama Sınavı\Arduino\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\bin\Debug\PinPon_oyun_deneme_1.pdb
+C:\Users\casper\Desktop\C# Uygulama Sınavı\Arduino\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\obj\Debug\PinPon_oyun_deneme_1.csprojResolveAssemblyReference.cache
+C:\Users\casper\Desktop\C# Uygulama Sınavı\Arduino\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\obj\Debug\PinPon_oyun_deneme_1.Form1.resources
+C:\Users\casper\Desktop\C# Uygulama Sınavı\Arduino\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\obj\Debug\PinPon_oyun_deneme_1.Properties.Resources.resources
+C:\Users\casper\Desktop\C# Uygulama Sınavı\Arduino\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\obj\Debug\PinPon_oyun_deneme_1.csproj.GenerateResource.Cache
+C:\Users\casper\Desktop\C# Uygulama Sınavı\Arduino\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\obj\Debug\PinPon_oyun_deneme_1.exe
+C:\Users\casper\Desktop\C# Uygulama Sınavı\Arduino\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\obj\Debug\PinPon_oyun_deneme_1.pdb
+C:\Users\casper\Desktop\C# Uygulama Sınavı\Arduino\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\obj\Debug\PinPon_oyun_deneme_1.Form2.resources
+C:\Users\casper\Downloads\EEE DERSLER\Dersler - 7.Yarıyıl\C#\2015514031 Cihad Kabaklı - 2015513031 Gökhan Kayhan\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\bin\Debug\PinPon_oyun_deneme_1.exe.config
+C:\Users\casper\Downloads\EEE DERSLER\Dersler - 7.Yarıyıl\C#\2015514031 Cihad Kabaklı - 2015513031 Gökhan Kayhan\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\obj\Debug\PinPon_oyun_deneme_1.exe
+C:\Users\casper\Downloads\EEE DERSLER\Dersler - 7.Yarıyıl\C#\2015514031 Cihad Kabaklı - 2015513031 Gökhan Kayhan\PinPon_oyun_deneme_1\PinPon_oyun_deneme_1\obj\Debug\PinPon_oyun_deneme_1.pdb
